@@ -294,7 +294,7 @@ section
 	letter-spacing: 2px;
 	color: #fff;
 	line-height: 0.75;
-	text-shadow: 1px 2px 5px #121212;
+	text-shadow: 1px 2px 5px #12121260;
 
 }
 .page_subtitle_1
@@ -669,7 +669,7 @@ _toggle
 	font-size: 50px;
 	color: #FFFFFF;
 	font-weight: 700;
-	text-shadow: 1px 2px 5px #121212;
+	text-shadow: 1px 2px 5px #12121260;
 }
 .home_text
 {
@@ -832,7 +832,7 @@ _toggle
     line-height: 1.2;
     color: #FFFFFF;
     /* font-weight: 300; */
-    text-shadow: 1px 2px 5px #121212;
+    text-shadow: 1px 2px 5px #12121260;
     font-family: vl;
 }
 .video_section_icon
@@ -843,7 +843,7 @@ _toggle
 	border: solid 2px #ffffff;
 	text-align: center;
 	margin-top: 27px;
-	text-shadow: 1px 2px 5px #121212;
+	text-shadow: 1px 2px 5px #12121260;
 }
 .video_button
 {
@@ -861,7 +861,7 @@ _toggle
 	font-size: 18px;
 	line-height: 52px;
 	margin-left: 3px;
-	text-shadow: 1px 2px 5px #121212;
+	text-shadow: 1px 2px 5px #12121260;
 }
 #colorbox
 {
