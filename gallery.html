@@ -288,7 +288,20 @@
 					<div class="reservations_content d-flex flex-column align-items-center justify-content-center fontvl">						
 						<div class="res_title mb-3">THE DUCK HOUSE<br>BUN MANG VIT THANH DA</div>
 						<div class="text-base">Enjoy Vietnamese favorites like duck bamboo noodle soup, rice, hu tieu, stir-fried noodles and grilled pork vermicelli.</div>						
-						<button class="res_button"><a target=_blank href="" style="color: #4b4060">Order Now</a></button>
+						<!-- <button class="res_button"><a target=_blank href="" style="color: #4b4060">Order Now</a></button> -->
+						<div class="dropdown">
+							<button class="dropdown-btn" onclick="toggleDropdown(this)" style="color: #4b4060">
+								Order Now ▼
+							</button>
+							<div class="dropdown-content">
+								<a style="border-bottom: dashed 1px;" target=_blank href="https://www.doordash.com/store/the-duck-house-houston-24784885/20094564">
+									<img src="images/doordash.svg" style="width: 120px">
+								</a>
+								<a target=_blank href="https://www.ubereats.com/store/bun-mang-vit-thanh-da/dWcPjBzRTIimVlY2nzqs7w">
+									<img src="images/uber-eats.svg" style="width: 110px">
+								</a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -358,5 +371,22 @@
 <script src="plugins/jquery-datepicker/jquery-ui.js"></script>
 <script src="plugins/jquery-timepicker/jquery.timepicker.js"></script>
 <script src="js/blog.js"></script>
+
+<!-- Dropdown -->
+<script>
+  function toggleDropdown(button) {
+  const dropdown = button.parentElement;
+  dropdown.classList.toggle("show");
+}
+
+window.addEventListener("click", function(event) {
+  if (!event.target.closest(".dropdown")) {
+    document.querySelectorAll(".dropdown").forEach(d => {
+      d.classList.remove("show");
+    });
+  }
+});
+</script>
+
 </body>
 </html>

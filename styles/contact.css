@@ -1028,3 +1028,67 @@ section
   }
   
   /* End Button control */
+
+      /* Dropdown */
+  .dropdown {
+  	position: relative;
+  	display: inline-block;
+  }
+
+  .dropdown-btn {
+  	width: 216px;
+  	height: 48px;
+  	background: #ffc107;
+  	color: #FFFFFF;
+  	border: none;
+  	outline: none;
+  	margin-top: 42px;
+  	font-size: 18px;
+  	cursor: pointer;
+  	border-radius: 50px;
+  	border: solid 1px #4b4060;
+  	box-shadow: 0 0 2px 1px #ffc107;
+  }
+
+  .dropdown-content {
+  	display: none;
+  	position: absolute;
+  	width: 216px;
+  	height: 96px;
+  	background: #fff;
+  	color: #FFFFFF;
+  	border: none;
+  	outline: none;
+  	margin-top: 5px;
+  	font-size: 18px;
+  	cursor: pointer;
+  	border-radius: 5px;
+  	border-top-left-radius: 5px;
+  	border-top-right-radius: 5px;
+  	border: solid 1px #4b4060;
+  	box-shadow: 0 0 2px 1px #ffc107;
+  	overflow: hidden;
+  	z-index: 1;
+  }
+
+  .dropdown-content a {
+  	color: #4b4060;
+  	padding: 10px 14px;
+  	text-decoration: none;
+  	display: block;
+  }
+
+  .dropdown-content a:hover {
+  	background-color: #fef5e4;
+  }
+
+  .dropdown.show .dropdown-content {
+  	display: block;
+  }
+
+  .dropdown.show .dropdown-btn {
+  	border-top-left-radius: 25px;
+  	border-top-right-radius: 25px;
+  	border-bottom-left-radius: 0;
+  	border-bottom-right-radius: 0;
+  }
