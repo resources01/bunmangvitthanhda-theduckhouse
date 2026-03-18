@@ -161,10 +161,10 @@
 	{
 		margin-bottom: 80px;
 	}
-	.footer_col:not(:last-child)
+	/* .footer_col:not(:last-child)
 	{
 		margin-bottom: 80px;
-	}
+	} */
 }
 
 /************
