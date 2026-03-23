@@ -1469,3 +1469,49 @@ _toggle
   	border-bottom-left-radius: 0;
   	border-bottom-right-radius: 0;
   }
+
+/* Video */
+
+/* Modal full màn hình */
+.video_modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  inset: 0; /* thay cho top/left/width/height */
+
+  background: rgba(0,0,0,0.8);
+
+  /* CĂN GIỮA */
+  align-items: center;
+  justify-content: center;
+
+  padding: 20px; /* tránh sát mép trên mobile */
+}
+
+/* Nội dung */
+.video_modal_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: auto;
+  height: 90%;
+}
+
+/* Video responsive */
+.video_modal video {
+  width: auto;
+  height: 90%;
+  border-radius: 8px;
+}
+
+/* Nút đóng */
+.close_btn {
+  position: absolute;
+  top: -35px;
+  right: 5px;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
